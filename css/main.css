@@ -1,0 +1,26 @@
+body {
+	font-family: 'Gilda Display', serif;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+nav ul{
+	list-style: none;
+	display: inline;
+}
+
+nav {
+	font-family: 'Gilda Display', serif;
+	font-size: 1.7em;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#name {
+	font-family: 'Voltaire', sans-serif;
+	font-size: 1.9em;
+}
