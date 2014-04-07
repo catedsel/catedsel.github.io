@@ -100,27 +100,23 @@ textarea {
 
 /* global styles */
 
-html, body {
-    padding: 0;
-    margin: 0;
-}
 
 body {
     font-family: 'Gilda Display', serif;
     font-size: 1.1em;
     font-weight: normal;
-    background-image: url("../assets/grey.png");
+    background-image: url("../assets/bg.png");
+
 
 }
 
 #whole {
     background: #fff;
     width: 700px;
-    margin: auto;
+    margin: 0 auto 0 auto;
     padding-top: 0px;
     padding: 0 30px 0 30px;
-    border-left: 2px solid #0b2974;
-    border-right: 2px solid #0b2974;
+    border: 2px solid #0b2974;
     height: 100%;
 
 
@@ -166,32 +162,24 @@ nav a:hover {
     text-align: center;
     margin-bottom: -25px;
     margin-top: -50px;
-    color: #80dccc;
+    color: #ff5654;
 }
 
-#hr {
+.hr {
     width: 400px;
     margin: auto;
     margin-top: 7px;
     border-top: 2px solid #ffda11;
 }
 
-
-footer p {
+#footer {
     text-align: center;
 }
 
-#footer {
-    height: 70px;
-    width: 300px;
-    margin: auto;
-    padding-bottom: 20px;
-}
 #footer img {
-
-    float: left;
-    margin-right: 30px;
+    margin-right: 20px;
 }
+
 
 /* about page */
 
@@ -212,7 +200,7 @@ footer p {
     font-family: 'Miss Fajardose', cursive;
     font-size: 3.7em;
     text-align: center;
-    color: #1d8fb2;
+    color: #0b2974;
     margin-bottom: -5px;
     margin-top: -5px;
 }
@@ -222,9 +210,18 @@ footer p {
         font-family: 'Miss Fajardose', cursive;
     font-size: 3.7em;
     text-align: center;
-    color: #1d8fb2;
+    color: #0b2974;
     margin-bottom: -5px;
     margin-top: -5px;
+}
+
+.date {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: -10px;
+    color: #0b2974;
 }
 
 /* contact page */
@@ -239,11 +236,69 @@ footer p {
 
 /* index page */
 
-.blog_header a {
-    color: #1d8fb2;
+.blog_header {
+    color: #0b2974;
 }
 
+.blog_header a{
+    text-decoration: none;
 
+}
+
+.blog_header a:hover {
+    color: #ff5654;
+}
+
+.blog_header a:visited {
+    color: #80dccc;
+}
+
+.read-more {
+        text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: -10px;
+    color: #0b2974;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    color: #ff5654;
+}
+
+#boss {
+    width: 300px;
+    margin: auto;
+    height: 500px;
+    margin-top: 40px;
+}
+
+#bosspic {
+    border-radius: 300px;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.creepy {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2em;
+}
+
+#creepy {
+    width: 310px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -120px;
+}
+
+#creepy span {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: lowercase;
+}
 
 
 
