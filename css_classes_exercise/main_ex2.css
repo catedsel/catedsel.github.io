@@ -1,0 +1,42 @@
+div {
+	padding: 30px;
+}
+
+.header {
+	background-color: #f2a062;
+	width:760px;
+	height: 70px;
+}
+
+.logo {
+	background-color: #eb6481;
+	width: 50px;
+	float: left;
+}
+
+.navigation {
+	width: 400px;
+	float: left;
+	background-color: #d76a50;
+}
+
+.sidebar {
+	width: 200px;
+	height: 200px;
+	background-color: #f6bd62;
+	clear: left;
+	float: left;
+}
+
+.main {
+	background-color: #507088;
+	width: 500px;
+	height: 200px;
+	float: left;
+}
+
+.footer {
+	clear: left;
+	width: 760px;
+	background-color: #b7ce3f;
+}

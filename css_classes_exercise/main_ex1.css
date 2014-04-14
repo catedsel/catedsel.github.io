@@ -1,0 +1,28 @@
+div {
+	padding: 30px;
+}
+
+.header {
+	background-color: #f2a062;
+	width: 760px;
+}
+
+.sidebar {
+	background-color: #f6bd62;
+	width: 200px;
+	float: left;
+	height: 200px;
+}
+
+.content {
+	width: 500px;
+	float: left;
+	background-color: #507088;
+	height: 200px;
+}
+
+.footer {
+	width: 760px;
+	background-color: #b7ce3f;
+	clear: left;
+}

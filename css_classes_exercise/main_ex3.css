@@ -1,0 +1,64 @@
+div {
+	padding: 30px;
+}
+
+.header {
+	background-color: #f2a062;
+	width: 760px;
+}
+
+.content {
+	background-color: #8eabc0;
+	width: 760px;
+}
+
+#top {
+	height: 100px;
+
+}
+
+#bottom {
+	height: 100px;
+	margin-top: 40px;
+}
+
+.widget {
+	background-color: #d76a50;
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+	float: left;
+}
+
+.gadget {
+	background-color: #eb6481;
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+	float: left;
+}
+
+.sub-widget {
+	background-color: white;
+	padding: 5px;
+}
+
+.top.first {
+	width: 50px;
+	height:  50px;
+}
+
+.blue {
+	background-color: #3a5162;
+}
+
+.top.gadget, .bottom.gadget {
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+
+.footer{
+	background-color: #b7ce3f;
+	width: 760px;
+}
