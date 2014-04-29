@@ -273,10 +273,23 @@ h1 {
     text-decoration: none;
 }
 
-a.blog-title {
+a.blog-title, p.blog-title {
     color: #59af8a;
     text-decoration: none;
 }
+
+
+
+.post-date {
+    font-size: 1em;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 30px;
+    color: #635763;
+    margin-top: -85px;
+}
+
+
 
 /* CONTACT PAGE */
 
